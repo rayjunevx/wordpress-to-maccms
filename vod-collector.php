@@ -194,7 +194,7 @@ function vod_collect_page($pg = 1, $api_name = '') {
     }
 
     $api_url = $apis[$api_name];
-    $url = $api_url . '?ac=videolist&t=&pg=' . $pg . '&h=10000&ids=&wd=';
+    $url = $api_url . '?ac=videolist&t=&pg=' . $pg . '&h=&ids=&wd=';
 
     $response = wp_remote_get($url);
     if (is_wp_error($response)) {

@@ -86,7 +86,7 @@ if (substr($raw_url, -1) === '/') {
                 </tr>
                 <tr>
                     <th>API URL</th>
-                    <td><input type="text" name="add_api_url" size="50" required> （保留最后的 /）</td>
+                    <td><input type="text" name="add_api_url" size="50" required> （只支持json接口）</td>
                 </tr>
             </table>
             <p><input type="submit" class="button-primary" value="添加 API"></p>
